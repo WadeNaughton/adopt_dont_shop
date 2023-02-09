@@ -1,5 +1,37 @@
 # Adopt, don't Shop
 
+## **Setup**
+
+- Git clone this repository 
+
+```
+git clone git@github.com:WadeNaughton/adopt_dont_shop.git
+```
+
+- CD into the newly cloned repo
+
+```
+CD adopt_dont_shop
+```
+
+- Bundle the gems 
+
+```
+bundle install
+```
+
+- Migrate the database
+
+```
+rake db:{drop,create,migrate,seed}
+```
+
+- Run locally
+
+```
+rails s
+```
+
 ### Existing database design
 ![visual-schema.png](https://i.postimg.cc/0ywZgQ1W/visual-schema.png)
 
